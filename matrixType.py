@@ -78,6 +78,17 @@ def lTriangle():
                     return False
     return True
 
+def symmetric():
+    global matrix
+    matrixRange = 0
+    for x in range(0,len(matrix)): # Counts for each row
+        for y in range(matrixRange,len(matrix[x])): # Counts for each Column
+            if x != y:
+                if int(matrix[x][y]) != int(matrix[y][x]):
+                    return False
+            matrixRange += 1
+    return True
+
 def main():
     global matrix
     square=False
@@ -118,6 +129,10 @@ def main():
         # Check if lower Triangular Matrix
         if lTriangle():
             print("This is a Lower Triangular Matrix")
+
+        # Symmetric Matrix
+        if symmetric():
+            print("This is a Symmetric Matrix")
 
     return
 
