@@ -1,6 +1,6 @@
 # LinearAlgebraCalculators
 ## Description
-This project is just little "calculators" or programs that solve various Linear Algebra problems.
+This project is just little "calculators" or programs that solve various Linear Algebra problems. This is to demonstrate some of what I have learned in Linear Algebra.
 
 ## Purpose
 This project is mainly just for me to learn more about Linear Algebra. Being able to take a new idea or concept, deconstruct it, then apply it is a great way to demonstrate learning. I am sure there are other very similar programs that already exist.
